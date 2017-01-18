@@ -1,8 +1,8 @@
-/* @media only screen and (min-width: 1400px)and (max-width: 3000px) 
+/* @media only screen and (min-width: 1400px)and (max-width: 3000px)
 {
 .wrapper { margin: 0 auto; width: 60% }
 } */
-/* @media only screen and (min-width: 767px)and (max-width: 1280px) 
+/* @media only screen and (min-width: 767px)and (max-width: 1280px)
 {
 .bgimg1{background: url('images/bg.png')}
 }
@@ -16,3 +16,98 @@
 
 }
   */
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .hex2 {
+    margin-right: -25px;
+    margin-bottom: -55px;
+    background-size: 132px;
+  }
+
+  .hex2 .left {
+    border-right: 35px solid rgba(0, 0, 0, 0);
+    border-top: 57px solid rgba(0, 0, 0, 0);
+    border-bottom: 57px solid rgba(0, 0, 0, 0);
+  }
+
+  .hex2 .middle {
+    height: 114px;
+  }
+
+  .hex2 .right {
+    border-left: 35px solid transparent;
+    border-top: 57px solid transparent;
+    border-bottom: 57px solid transparent;
+  }
+
+  .hex2.even {
+    margin-top: 60px;
+  }
+
+  .hex2.topnewbox {
+    margin-left: 315px;
+  }
+
+  .hex2.newbox {
+    margin-left: 210px;
+    margin-top: 1px;
+  }
+
+  .hex2.newbox1 {
+    margin-left: 420px;
+    margin-top: -59px;
+  }
+
+  .hex2:hover {
+    background: 0 -117px no-repeat;
+    background-size: 132px;
+  }
+
+  .hidden-text {
+    left: 134px;
+    width: 380px;
+    height: 112px;
+    padding: 4px 4px 0px 6px;
+  }
+
+  .hidden-text.ofscr {
+    left: auto;
+    right: 131px;
+  }
+
+  .hidden-text:before {
+    left: -37px;
+    border-left: 32px solid rgba(0, 0, 0, 0);
+    border-top: 56px solid rgba(0, 0, 0, 0.7);
+    border-right: 5px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 56px solid rgba(0, 0, 0, 0.7);
+  }
+
+  .hidden-text.ofscr:after {
+    right: -36px;
+    border-right: 32px solid rgba(0, 0, 0, 0);
+    border-top: 56px solid rgba(0, 0, 0, 0.7);
+    border-left: 4px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 56px solid rgba(0, 0, 0, 0.7);
+  }
+
+  .titlename {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .jobtitle {
+    font-size: 13px;
+    margin-bottom: 2px;
+  }
+
+  .Faviorate,
+  .Faviorate1 {
+    font-size: 12px;
+  }
+}
